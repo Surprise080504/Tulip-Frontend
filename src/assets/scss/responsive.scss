@@ -1,0 +1,62 @@
+@media (max-width: 992px) {
+  .main-content {
+    margin-left: 0;
+    padding: 20px 20px 50px;
+    min-height: calc(100vh - 82px);
+
+    .go-interactive-farms {
+      bottom: 0px;
+      right: 20px;
+    }
+  }
+  .stakeTitle {
+    text-align: center !important;
+  }
+  .sidebar {
+    width: auto;
+    min-height: auto;
+    position: initial;
+    padding: 0px 20px;
+
+    .navbar-toggler-icon {
+      filter: invert(1);
+    }
+
+    .navbar-nav .nav-link {
+      padding: 5px;
+    }
+
+    .social-icons {
+      display: none;
+    }
+  }
+
+  .farm-title {
+    img {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .yellowText {
+    margin-top: 10px !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  .threebtn {
+    display: flex !important;
+    flex-direction: column !important;
+    row-gap: 10px !important;
+  }
+}
+.custom-grid {
+  @media screen and (min-width: 992px) and (max-width: 1400px) {
+    @for $i from 1 through $grid-columns {
+      .col-md-#{$i} {
+        @if $i < 6 {
+          width: percentage(divide($i + 1, $grid-columns));
+        }
+      }
+    }
+  }
+}

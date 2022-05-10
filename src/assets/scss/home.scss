@@ -1,0 +1,57 @@
+.price-feed {
+  .card-body {
+    padding-bottom: 0;
+  }
+  .card-title {
+    border-bottom: 1px solid #b3b1ff;
+  }
+
+  img {
+    width: 35px;
+  }
+
+  .feeds {
+    height: 240px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  i {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    &.arrow-up {
+      background-image: url(../img/price-arrow-up.svg);
+    }
+
+    &.arrow-down {
+      background-image: url(../img/price-arrow-down.svg);
+    }
+  }
+}
+
+.buy-button {
+  background: linear-gradient(135deg, #4dcab9 0%, #4a3d74 81.77%);
+  border-radius: 9px;
+  border: none;
+  box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.zap-button {
+  background: linear-gradient(135deg, #b3b1ff 0%, #b4f6ed 100%);
+  border-radius: 3px;
+  box-shadow: none !important;
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.token-images {
+  img {
+    max-width: 12%;
+    width: 40px;
+  }
+}

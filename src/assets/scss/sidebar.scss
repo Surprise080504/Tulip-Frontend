@@ -1,0 +1,46 @@
+.sidebar {
+  width: 300px;
+  min-height: 100vh;
+  padding: 25px;
+  position: fixed;
+
+  .account-address {
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    position: relative;
+  }
+
+  .navbar-brand {
+    margin-right: 0 !important;
+  }
+
+  .nav-link {
+    background: linear-gradient(
+      180deg,
+      #505358 0%,
+      rgba(25, 27, 31, 0.64) 100%
+    );
+    opacity: 0.42;
+    border-radius: 8px;
+
+    &.active {
+      background: linear-gradient(135deg, #5354c8 0%, #5d5fef 100%);
+      border-radius: 8px;
+      opacity: 1;
+    }
+  }
+
+  .social-links {
+    bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+
+    a {
+      img {
+        width: 30px;
+      }
+    }
+  }
+}

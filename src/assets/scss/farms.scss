@@ -1,0 +1,17 @@
+.farm-title {
+  position: relative;
+
+  img {
+    position: absolute;
+    right: 0;
+    max-width: 120px;
+    top: 40px;
+  }
+}
+
+.go-interactive-farms {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  cursor: pointer;
+}

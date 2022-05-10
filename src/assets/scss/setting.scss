@@ -1,0 +1,37 @@
+$primary: #5d5fef;
+$secondary: #4dcab9;
+$dark: #16171d;
+$warning: #ffe177;
+$font-family-sans-serif: Noto Sans TC;
+$card-border-radius: 1.25rem;
+$card-border-width: 3px;
+$btn-box-shadow: 0px 1px 3px 1px rgba(255, 255, 255, 0.25);
+$btn-border-width: 2px;
+$btn-border-radius: 7px;
+$small-font-size: 0.775em;
+$input-bg: rgba(47, 50, 65, 0.5);
+$input-border-radius: 100px;
+$input-border-color: #34384c;
+$modal-content-border-radius: 1.25rem;
+$form-range-track-bg: #34384c;
+$form-range-bg: #34384c;
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Noto Sans Bold";
+  src: url("../fonts/NotoSans-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Noto Sans Italic";
+  src: url("../fonts/NotoSans-Italic.ttf");
+  font-weight: bold;
+}
+
+@import "~bootstrap/scss/bootstrap";

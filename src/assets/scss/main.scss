@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Noto Sans;
+  src: url("../fonts/NotoSans-Regular.ttf");
+}
+
+.tulipswap-container {
+  font-family: "Noto Sans" !important;
+  background: #141518;
+  min-height: 100vh;
+}
+
+.main-content {
+  margin-left: 300px;
+  min-height: 100vh;
+  padding: 50px;
+  position: relative;
+}
+.inactiveText {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  background: linear-gradient(135deg, #b3b1ff 0%, #b4f6ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.gardentitle {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background: linear-gradient(135deg, #b3b1ff 0%, #b4f6ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradientText {
+  background: linear-gradient(135deg, #b3b1ff 0%, #b4f6ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.underText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #b3b1ff 0%, #b4f6ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0.2;
+}
+.overText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* grad-active */
+
+  background: linear-gradient(135deg, #b3b1ff 0%, #b4f6ed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 1px 6px rgba(133, 182, 255, 0.42);
+}
+@import "./setting";
+@import "./common";
+@import "./sidebar";
+@import "./home";
+@import "./farms";
+@import "./docs";
+@import "./responsive";
